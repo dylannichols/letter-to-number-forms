@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace letter_to_number_forms
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-            Greeting.Text = Messages.Greeting;
-        }
-
-        private void UserInput_TextChanged(object sender, EventArgs e)
-        {
-            Result.Text = WordPercentage.WordToPercent(UserInputBox.Text);
         }
     }
 }
